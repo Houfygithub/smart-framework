@@ -25,4 +25,17 @@ public final class StringUtil {
     public static boolean isNotEmpty(String str){
         return !isEmpty(str);
     }
+
+
+    /**
+     * 分离字符串
+     * @param str
+     * @param filter
+     * @return
+     */
+    public static String[] splitString(String str, String filter){
+        String[] result;
+        result = str.split(filter);
+        return result;
+    }
 }

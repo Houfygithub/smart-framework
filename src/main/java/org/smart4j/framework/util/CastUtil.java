@@ -48,8 +48,8 @@ public final class CastUtil {
     /**
      *  转换为 long型
      */
-    public static double castLong(Object obj){
-        return castDouble(obj,0);
+    public static long castLong(Object obj){
+        return castLong(obj,0);
     }
     /**
      *  转换为 long型(指定默认值)
